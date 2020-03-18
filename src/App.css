@@ -13,6 +13,28 @@
   }
 }
 
+.SearchForm-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.movie{
+  width: 300px;
+  margin: 5px;
+}
+
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
