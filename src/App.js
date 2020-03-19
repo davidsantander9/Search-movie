@@ -18,13 +18,19 @@ class App extends Component{
 
   _renderResults() {
     return(
-      this.state.results.length === 0 
+      this.state.results.length === 0 // eslint-disable-next-line
       ? <p>Sorry! 😢 Results no found</p>
       : <div className="movieList"><MovieList movies={ this.state.results}/></div>
     )     
   }
 
   render(){
+    let url   = new URL(document.location);
+    let hasId = url.searchParams.has('id');
+
+    if( hasId ){
+      return <Detail id={url.searchParams.get('id')}/>
+    }
     return (
       <div className="App">
         <header className="App-header">

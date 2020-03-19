@@ -30,10 +30,16 @@
 .movie{
   width: 300px;
   margin: 5px;
+  background: #fff;
 }
 
+.movie p{
+  color: gray; 
+}
 
-
+.movie:hover p{
+  color: #3298dc;
+}
 
 .App-header {
   background-color: #282c34;

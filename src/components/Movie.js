@@ -1,17 +1,18 @@
 import React, {Component} from 'react'
-// import Proptypes from 'proptypes'
+import PropTypes from 'prop-types'
 
 export class Movie extends Component{
-    // static proptypes = {
-    // //     title: Proptypes.string,
-    // //     year: Proptypes.string, 
-    // //     poster: Proptypes.string
-    // }
+    static propTypes = {
+        id:     PropTypes.string,
+        title:  PropTypes.string,
+        year:   PropTypes.string, 
+        poster: PropTypes.string
+    }
 
     render(){
-        const { poster, title, year, key } = this.props 
+        const { id, poster, title, year, key } = this.props 
         return(
-            <div className="card" key={key}>
+            <a href={`?id=${id}`} className="card" key={key}>
                 <div className="card-image">
                     <figure className="image is-4by3">
                     <img src={poster} alt={title}/>
@@ -20,11 +21,12 @@ export class Movie extends Component{
                 <div className="card-content">
                     <div className="content">
                         <p>{title}</p>
-                        <a href="www.css.com">#css</a> <a href="www.responsive.com">#responsive</a>
-                        <time>{ year }</time>
+                        <p>
+                            <time>{ year }</time>
+                        </p>
                     </div>
                 </div>
-            </div>
+            </a>
         )
     }
 }
