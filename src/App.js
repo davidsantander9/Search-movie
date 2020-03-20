@@ -36,15 +36,13 @@ class App extends Component{
         <header className="App-header">
           <Title>Search Movies</Title>
           <img src={logo} className="App-logo" alt="logo" />
+        </header>
           <SearchForm onResults={ this._handleResults }/>
           {
             this.state.useSearch 
             ? this._renderResults()
             : <small>Use the form to search a movie</small> 
           }
-          
-        </header>
-        
       </div>
     )
   }

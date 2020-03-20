@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Title } from '../components/Title'
+import { ButtonBack } from '../components/ButtonBack'
+
 const API_KEY = '9fd26d39'
 
 export class Detail extends Component{
@@ -30,14 +31,32 @@ export class Detail extends Component{
     render(){
         let { Title, Poster, Actors, Metascore, Plot } = this.state.movie
         return(
-            <div>
-                <button onClick={ this._goBack }>Go back</button>
-                <h1>{ Title }</h1>
-                <img src={ Poster } alt={ Title }/>
-                <h3>{ Actors }</h3>
-                <span>{ Metascore }</span>
-                <p>{ Plot } </p>
+
+            <div className="card-detail">
+                <ButtonBack/>
+                <div className="card">
+                    <div className="card-image">
+                        <figure className="image is-4by3">
+                            <img src={ Poster } alt={ Title }/>
+                        </figure>
+                    </div>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-2">{ Title }</p>
+                                <p className="title is-4">{ Actors }</p>
+                            </div>
+                        </div>
+
+                        <div className="content"> 
+                        <p> { Plot } </p>
+                        <p> { Metascore }</p>
+                        </div>
+                    </div>
+                    </div>
+
             </div>
+
         )
     }
 }
