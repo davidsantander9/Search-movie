@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b0532518934efd892799f541285283b",
+    "revision": "093205b065824ff55616236be0dc8ca5",
     "url": "/davidsantander9/Search-movie/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/davidsantander9/Search-movie/static/css/2.aeed1b96.chunk.css"
   },
   {
-    "revision": "6eb4c2a801988c4051d3",
-    "url": "/davidsantander9/Search-movie/static/css/main.374007c0.chunk.css"
+    "revision": "d2e9d703e6fc29ee6654",
+    "url": "/davidsantander9/Search-movie/static/css/main.c157af7c.chunk.css"
   },
   {
     "revision": "587df5d66b22fd2d08ea",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eb4c2a801988c4051d3",
+    "revision": "d2e9d703e6fc29ee6654",
     "url": "/davidsantander9/Search-movie/static/js/main.b13d5b67.chunk.js"
   },
   {
