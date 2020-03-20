@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Search-movie/static/css/main.374007c0.chunk.css",
-    "main.js": "/Search-movie/static/js/main.4f76cf72.chunk.js",
-    "main.js.map": "/Search-movie/static/js/main.4f76cf72.chunk.js.map",
-    "runtime-main.js": "/Search-movie/static/js/runtime-main.6c946bb7.js",
-    "runtime-main.js.map": "/Search-movie/static/js/runtime-main.6c946bb7.js.map",
-    "static/css/2.aeed1b96.chunk.css": "/Search-movie/static/css/2.aeed1b96.chunk.css",
-    "static/js/2.1d12fc76.chunk.js": "/Search-movie/static/js/2.1d12fc76.chunk.js",
-    "static/js/2.1d12fc76.chunk.js.map": "/Search-movie/static/js/2.1d12fc76.chunk.js.map",
-    "index.html": "/Search-movie/index.html",
-    "precache-manifest.62936fb204b9ff97e14cd04499ee39a5.js": "/Search-movie/precache-manifest.62936fb204b9ff97e14cd04499ee39a5.js",
-    "service-worker.js": "/Search-movie/service-worker.js",
-    "static/css/2.aeed1b96.chunk.css.map": "/Search-movie/static/css/2.aeed1b96.chunk.css.map",
-    "static/css/main.374007c0.chunk.css.map": "/Search-movie/static/css/main.374007c0.chunk.css.map",
-    "static/js/2.1d12fc76.chunk.js.LICENSE.txt": "/Search-movie/static/js/2.1d12fc76.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Search-movie/static/media/logo.5d5d9eef.svg"
+    "main.css": "/davidsantander9/Search-movie/static/css/main.374007c0.chunk.css",
+    "main.js": "/davidsantander9/Search-movie/static/js/main.b13d5b67.chunk.js",
+    "main.js.map": "/davidsantander9/Search-movie/static/js/main.b13d5b67.chunk.js.map",
+    "runtime-main.js": "/davidsantander9/Search-movie/static/js/runtime-main.bd41bc08.js",
+    "runtime-main.js.map": "/davidsantander9/Search-movie/static/js/runtime-main.bd41bc08.js.map",
+    "static/css/2.aeed1b96.chunk.css": "/davidsantander9/Search-movie/static/css/2.aeed1b96.chunk.css",
+    "static/js/2.1d12fc76.chunk.js": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js",
+    "static/js/2.1d12fc76.chunk.js.map": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js.map",
+    "index.html": "/davidsantander9/Search-movie/index.html",
+    "precache-manifest.7f4c33bcebc6c32bde1034152caea122.js": "/davidsantander9/Search-movie/precache-manifest.7f4c33bcebc6c32bde1034152caea122.js",
+    "service-worker.js": "/davidsantander9/Search-movie/service-worker.js",
+    "static/css/2.aeed1b96.chunk.css.map": "/davidsantander9/Search-movie/static/css/2.aeed1b96.chunk.css.map",
+    "static/css/main.374007c0.chunk.css.map": "/davidsantander9/Search-movie/static/css/main.374007c0.chunk.css.map",
+    "static/js/2.1d12fc76.chunk.js.LICENSE.txt": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/davidsantander9/Search-movie/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c946bb7.js",
+    "static/js/runtime-main.bd41bc08.js",
     "static/css/2.aeed1b96.chunk.css",
     "static/js/2.1d12fc76.chunk.js",
     "static/css/main.374007c0.chunk.css",
-    "static/js/main.4f76cf72.chunk.js"
+    "static/js/main.b13d5b67.chunk.js"
   ]
 }
