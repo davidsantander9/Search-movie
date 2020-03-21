@@ -1,51 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+ 
 import './App.css';
 import 'bulma/css/bulma.css';
 
-import { Title } from './components/Title'
-import { SearchForm } from './components/SearchForm'
-import { MovieList } from './components/MovieList';
-
 import { Detail } from './pages/Detail'
+import { Home } from './pages/Home'
 
 class App extends Component{
-  state = { useSearch: false, results:[] }
-
-  _handleResults = ( results ) => {
-    this.setState({ results, useSearch: true })
-  }
-
-  _renderResults() {
-    return(
-      this.state.results.length === 0 // eslint-disable-next-line
-      ? <p>Sorry! 😢 Results no found</p>
-      : <div className="movieList"><MovieList movies={ this.state.results}/></div>
-    )     
-  }
 
   render(){
-    let url   = new URL(document.location);
-    let hasId = url.searchParams.has('id');
-
-    if( hasId ){
-      return <Detail id={url.searchParams.get('id')}/>
-    }
     return (
-      <div className="App">
-        <header className="App-header">
-          <Title>Search Movies</Title>
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-          <SearchForm onResults={ this._handleResults }/>
-          {
-            this.state.useSearch 
-            ? this._renderResults()
-            : <small>Use the form to search a movie</small> 
-          }
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path='/' component={ Home } />
+            <Route path='/detail/:id' component={ Detail } />
+          </Switch>
+        </div>
+      </Router>
     )
   }
 }
+
 
 export default App;
