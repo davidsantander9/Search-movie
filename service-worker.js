@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/davidsantander9/Search-movie/precache-manifest.b278c8ecd97b452478e279320607bb7e.js"
+  "/davidsantander9/Search-movie/precache-manifest.1b2e77ed7ddfb0b4aa875feca8de7f6a.js"
 );
 
 self.addEventListener('message', (event) => {

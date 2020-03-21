@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/davidsantander9/Search-movie/static/css/main.c157af7c.chunk.css",
-    "main.js": "/davidsantander9/Search-movie/static/js/main.b13d5b67.chunk.js",
-    "main.js.map": "/davidsantander9/Search-movie/static/js/main.b13d5b67.chunk.js.map",
+    "main.js": "/davidsantander9/Search-movie/static/js/main.7935ea2f.chunk.js",
+    "main.js.map": "/davidsantander9/Search-movie/static/js/main.7935ea2f.chunk.js.map",
     "runtime-main.js": "/davidsantander9/Search-movie/static/js/runtime-main.bd41bc08.js",
     "runtime-main.js.map": "/davidsantander9/Search-movie/static/js/runtime-main.bd41bc08.js.map",
     "static/css/2.aeed1b96.chunk.css": "/davidsantander9/Search-movie/static/css/2.aeed1b96.chunk.css",
-    "static/js/2.1d12fc76.chunk.js": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js",
-    "static/js/2.1d12fc76.chunk.js.map": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js.map",
+    "static/js/2.f0e48fde.chunk.js": "/davidsantander9/Search-movie/static/js/2.f0e48fde.chunk.js",
+    "static/js/2.f0e48fde.chunk.js.map": "/davidsantander9/Search-movie/static/js/2.f0e48fde.chunk.js.map",
     "index.html": "/davidsantander9/Search-movie/index.html",
-    "precache-manifest.b278c8ecd97b452478e279320607bb7e.js": "/davidsantander9/Search-movie/precache-manifest.b278c8ecd97b452478e279320607bb7e.js",
+    "precache-manifest.1b2e77ed7ddfb0b4aa875feca8de7f6a.js": "/davidsantander9/Search-movie/precache-manifest.1b2e77ed7ddfb0b4aa875feca8de7f6a.js",
     "service-worker.js": "/davidsantander9/Search-movie/service-worker.js",
     "static/css/2.aeed1b96.chunk.css.map": "/davidsantander9/Search-movie/static/css/2.aeed1b96.chunk.css.map",
     "static/css/main.c157af7c.chunk.css.map": "/davidsantander9/Search-movie/static/css/main.c157af7c.chunk.css.map",
-    "static/js/2.1d12fc76.chunk.js.LICENSE.txt": "/davidsantander9/Search-movie/static/js/2.1d12fc76.chunk.js.LICENSE.txt",
+    "static/js/2.f0e48fde.chunk.js.LICENSE.txt": "/davidsantander9/Search-movie/static/js/2.f0e48fde.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/davidsantander9/Search-movie/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bd41bc08.js",
     "static/css/2.aeed1b96.chunk.css",
-    "static/js/2.1d12fc76.chunk.js",
+    "static/js/2.f0e48fde.chunk.js",
     "static/css/main.c157af7c.chunk.css",
-    "static/js/main.b13d5b67.chunk.js"
+    "static/js/main.7935ea2f.chunk.js"
   ]
 }
